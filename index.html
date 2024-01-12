@@ -1,14 +1,84 @@
-!DOCTYPE html>
+<!-- index.html -->
+
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" />
-  <link rel="stylesheet" href="styles/style.css">
-  <title>QPalms</title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QPalms - Your Vacation Information Source</title>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0">
+  <!-- Include Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Include custom styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="img/qpalms_logo.png" alt="QPalms Logo" class="rounded-circle mr-2" style="max-height: 80px;">
+        QPalms
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#destinations">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to QPalms</h2>
+      <p>Your go-to source for vacation information!</p>
+      <p>Discover amazing destinations, find travel tips, and plan your dream vacation with QPalms.</p>
+    </section>
+
+    <section id="destinations">
+      <h2>Explore Destinations</h2>
+      <p>From breathtaking beaches to vibrant cities, explore our curated list of destinations to make your vacation memorable.</p>
+      <p>Discover hidden gems, popular attractions, and travel guides to plan your next adventure.</p>
+    </section>
+
+    <section id="about">
+      <h2>About QPalms</h2>
+      <p>QPalms is a dedicated team passionate about providing you with the best travel information.</p>
+      <p>Our mission is to make your travel experience seamless, enjoyable, and full of unforgettable moments.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Have questions or need assistance? Reach out to us!</p>
+      <p>Email: info@qpalms.com</p>
+      <p>Phone: +1 (123) 456-7890</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 QPalms. All rights reserved.</p>
+  </footer>
+
+  <!-- Include Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
